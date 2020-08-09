@@ -46,6 +46,7 @@ function addNums(num1, num2, num3) {
 // code here
 
 
+
 ////////// PROBLEM 4 //////////
 
 /* Using the spread operator, concatentate the two arrays below and save it to a variable named "combinedArrays" */
