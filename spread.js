@@ -29,7 +29,7 @@ var productCopy = Object.assign({}, product)
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
-var colorsCopy = Array.assign([], colors)
+var colorsCopy = {... colors};
 
 
 
@@ -43,9 +43,10 @@ function addNums(num1, num2, num3) {
   return num1 + num2 + num3;
 }
 
-const result = addNums(...numbers);// code here
+//const result = addNums(...numbers);// code here
 
-//let result = addNums(...numbers)
+let result = addNums(...numbers);
+console.log(result)
 
 
 ////////// PROBLEM 4 //////////
