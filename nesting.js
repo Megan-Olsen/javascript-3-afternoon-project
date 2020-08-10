@@ -78,6 +78,7 @@ const removeDuplicates = () => {
       }
     }
   }
+  return workplaceAccidents
 }
 
 
