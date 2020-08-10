@@ -43,9 +43,9 @@ function addNums(num1, num2, num3) {
   return num1 + num2 + num3;
 }
 
-// code here
+const result = addNums(...numbers);// code here
 
-let result = addNums(...numbers)
+//let result = addNums(...numbers)
 
 
 ////////// PROBLEM 4 //////////
@@ -55,4 +55,5 @@ let result = addNums(...numbers)
 let arr1 = ['dog', 'chameleon', 'monkey'];
 let arr2 = ['bear', 'tiger', 'liger'];
 
-// code here
+arr1 = arr1.concat(arr2);
+let combinedArrays =arr1;// code here
