@@ -80,7 +80,15 @@ function showValues( obj ) {
 */
 
 //Code Here
-
+const secrets = obj => {
+  let newStr = ''
+  for(let key in obj){
+    if (key.startsWith('sh')){
+      newStr += obj[key]
+    }
+  }
+  return newStr
+}
 
 
 /* 
