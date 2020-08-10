@@ -46,7 +46,7 @@ function addNums(num1, num2, num3) {
 //const result = addNums(...numbers);// code here
 
 let result = addNums(...numbers);
-console.log(result)
+console.log(result);
 
 
 ////////// PROBLEM 4 //////////
