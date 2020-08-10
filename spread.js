@@ -45,6 +45,7 @@ function addNums(num1, num2, num3) {
 
 // code here
 
+addNums.assign(...numbers);
 
 
 ////////// PROBLEM 4 //////////
