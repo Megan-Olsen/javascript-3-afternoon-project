@@ -72,7 +72,10 @@ function totalPopulation(object){
 */
 
 //Code Here
-
+let ingredients = (objec) => {
+let{carb,fat,protein}= objec
+return [carb, fat, protein]
+}
 
 
 ////////// PROBLEM 5 //////////
