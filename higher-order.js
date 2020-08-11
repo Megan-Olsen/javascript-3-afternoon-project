@@ -63,7 +63,9 @@ const populations = [8175133, 3792621, 2695598, 2100263];
 */
 
 //Code Here
-let totalPopulation //  = populations.reduce(/* Provide Your Callback Here */)
+let totalPopulation = populations.reduce((runningTotal, curElement)=>{
+  return runningTotal + curElement
+}, 0)
 
 
 
