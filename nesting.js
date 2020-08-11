@@ -163,10 +163,19 @@ var myCar = {
 
 //Code Here
 let recordCleaner = () => {
-  for(let i = 0; i < myCar[accidents].length; i ++ ){
-    
+  for(let i = 0; i < myCar.accidents.length; i++){
+    if(myCar.accidents[i].atFaultForAccident === true){
+      myCar.accidents[i].atFaultForAccident = false
+    }
   }
 }
+//    for(let key in myCar){
+// if(key === 'accidents'){
+//    for(let atFaultForAccident in myCar[key]){
+//      myCar[key][myFaultForAccident] = false
+//    }
+//  }
+//}
 
 
 ////////// PROBLEM 5 //////////
