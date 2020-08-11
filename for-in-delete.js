@@ -198,5 +198,14 @@ function startsWithK(obj){
 */
 
 //Code Here
-
+let hiddenTreasure = obj => {
+  for(let key in obj){
+    if(obj[key].includes('treasure')){
+      obj[key]
+    }else{
+      delete obj[key]
+    }
+  }
+  return obj
+}
 
