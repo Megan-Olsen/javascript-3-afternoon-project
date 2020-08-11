@@ -117,8 +117,11 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+let grumpyActivity = cat.catFriends[0].activities[1];
+
+let fluffy2ndFriend = cat.catFriends[1].name;
+
+grumpyActivity;
 
 
 
@@ -159,7 +162,11 @@ var myCar = {
 */
 
 //Code Here
-
+let recordCleaner = () => {
+  for(let i = 0; i < myCar[accidents].length; i ++ ){
+    
+  }
+}
 
 
 ////////// PROBLEM 5 //////////
